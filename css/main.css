@@ -1,0 +1,143 @@
+body {
+    padding-top: 5rem;
+}
+
+h5{
+    font-weight: 900;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.margin-form {
+    margin-left: auto;
+}
+
+/*card's categorias*/
+.card-cabecera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+
+.card-cabecera h5{
+    color: blueviolet;
+    font-weight: 500;
+}
+
+.card-cabecera button{
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 1px;
+}
+
+.card-cate{
+    margin: 0;
+    padding: 0;
+}
+
+.card-cate h5{
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+}
+/* FIN card's categorias*/
+
+/*INICIO modal-orden-clientes*/
+.modal-orden{
+    border: 1px solid grey;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card-12{
+    border-bottom: 1px solid grey;
+}
+
+.modal-footer button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 18px;
+    width: 110px;
+    height: 30px;
+    padding: 1px;
+    border: 1px solid blueviolet;
+}
+
+/*FIN modal-orden-clientes*/
+
+
+.btn:hover{
+    background-color: rgba(68, 3, 129, 0.692);
+    color: white;
+}
+
+.texto {
+    text-align: right;
+}
+
+.bg-violet {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*INICIO cards categorias*/
+.icono {
+    /*cuadrado*/
+    border: 1px solid black;
+    width: 80px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    /*Centrar el texto en el cuadrado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.icono h6{
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.card-style {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.card-body-style {
+    color: white;
+    text-align: left;
+}
+
+.card-padding {
+    margin: 20px;
+}
+
+.card-modal {
+    margin: 10px;
+}
+
+.btn-lugo {
+    background-color: rgba(68, 3, 128, 0.853);
+    color: white;
+    margin: 5px;
+    border: 1px solid rgba(138, 43, 226, 0.5);
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+.select-cliente {
+    color: blueviolet;
+    border-radius: 25px;
+}
